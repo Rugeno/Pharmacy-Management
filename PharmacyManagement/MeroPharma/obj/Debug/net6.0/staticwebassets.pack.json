@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\MeroPharma.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MeroPharma.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\Image\\Logo.png",
+      "PackagePath": "staticwebassets\\Image\\Logo.png"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\Image\\Logo1.png",
+      "PackagePath": "staticwebassets\\Image\\Logo1.png"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\Image\\Logo4.png",
+      "PackagePath": "staticwebassets\\Image\\Logo4.png"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\Image\\Logo5.png",
+      "PackagePath": "staticwebassets\\Image\\Logo5.png"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Projects\\PharmacyManagement\\MeroPharma\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MeroPharma.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.MeroPharma.props",
+      "PackagePath": "build\\MeroPharma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.MeroPharma.props",
+      "PackagePath": "buildMultiTargeting\\MeroPharma.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.MeroPharma.props",
+      "PackagePath": "buildTransitive\\MeroPharma.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

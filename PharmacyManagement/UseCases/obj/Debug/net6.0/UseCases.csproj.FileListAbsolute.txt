@@ -1,0 +1,15 @@
+D:\Projects\PharmacyManagement\UseCases\bin\Debug\net6.0\UseCases.deps.json
+D:\Projects\PharmacyManagement\UseCases\bin\Debug\net6.0\UseCases.dll
+D:\Projects\PharmacyManagement\UseCases\bin\Debug\net6.0\UseCases.pdb
+D:\Projects\PharmacyManagement\UseCases\bin\Debug\net6.0\CoreBusiness.dll
+D:\Projects\PharmacyManagement\UseCases\bin\Debug\net6.0\CoreBusiness.pdb
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.csproj.AssemblyReference.cache
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.AssemblyInfoInputs.cache
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.AssemblyInfo.cs
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.csproj.CoreCompileInputs.cache
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.csproj.CopyComplete
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.dll
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\refint\UseCases.dll
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\UseCases.pdb
+D:\Projects\PharmacyManagement\UseCases\obj\Debug\net6.0\ref\UseCases.dll

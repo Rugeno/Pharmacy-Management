@@ -1,0 +1,144 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "CoreBusiness/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CoreBusiness.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreBusiness.dll": {}
+        }
+      },
+      "Plugins.DataStore.InMemory/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "UseCases": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Plugins.DataStore.InMemory.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Plugins.DataStore.InMemory.dll": {}
+        }
+      },
+      "UseCases/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CoreBusiness": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UseCases.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UseCases.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreBusiness/1.0.0": {
+      "type": "project",
+      "path": "../CoreBusiness/CoreBusiness.csproj",
+      "msbuildProject": "../CoreBusiness/CoreBusiness.csproj"
+    },
+    "Plugins.DataStore.InMemory/1.0.0": {
+      "type": "project",
+      "path": "../Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj",
+      "msbuildProject": "../Plugins.DataStore.InMemory/Plugins.DataStore.InMemory.csproj"
+    },
+    "UseCases/1.0.0": {
+      "type": "project",
+      "path": "../UseCases/UseCases.csproj",
+      "msbuildProject": "../UseCases/UseCases.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "CoreBusiness >= 1.0.0",
+      "Plugins.DataStore.InMemory >= 1.0.0",
+      "UseCases >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Dell\\.nuget\\packages\\": {},
+    "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Projects\\PharmacyManagement\\MeroPharma\\MeroPharma.csproj",
+      "projectName": "MeroPharma",
+      "projectPath": "D:\\Projects\\PharmacyManagement\\MeroPharma\\MeroPharma.csproj",
+      "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+      "outputPath": "D:\\Projects\\PharmacyManagement\\MeroPharma\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "D:\\Projects\\PharmacyManagement\\CoreBusiness\\CoreBusiness.csproj": {
+              "projectPath": "D:\\Projects\\PharmacyManagement\\CoreBusiness\\CoreBusiness.csproj"
+            },
+            "D:\\Projects\\PharmacyManagement\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj": {
+              "projectPath": "D:\\Projects\\PharmacyManagement\\Plugins.DataStore.InMemory\\Plugins.DataStore.InMemory.csproj"
+            },
+            "D:\\Projects\\PharmacyManagement\\UseCases\\UseCases.csproj": {
+              "projectPath": "D:\\Projects\\PharmacyManagement\\UseCases\\UseCases.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
