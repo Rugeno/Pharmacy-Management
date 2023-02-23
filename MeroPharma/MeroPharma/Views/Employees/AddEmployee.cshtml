@@ -1,0 +1,32 @@
+﻿@model MeroPharma.Models.AddEmployeeViewModel
+@{
+}
+
+<h1>Add employee</h1>
+<form method="post" action="AddEmployee" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Name</label>
+        <input type="text" class="form-control" asp-for="EmployeeName">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+        <input type="password" class="form-control" asp-for="Password">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Salary</label>
+        <input type="text" class="form-control" asp-for="Salary">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">DateofBirth</label>
+        <input type="date" class="form-control" asp-for="DateOfBirth">
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Contact</label>
+        <input type="number" class="form-control" asp-for="Contact">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

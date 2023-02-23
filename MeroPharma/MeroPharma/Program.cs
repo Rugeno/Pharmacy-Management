@@ -1,7 +1,13 @@
+using MeroPharma.Data;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<MVCDBContext>(options =>
+    options.UseSqlServer(builder.Configuration
+    .GetConnectionString("MVCConnectionString")));
 
 var app = builder.Build();
 

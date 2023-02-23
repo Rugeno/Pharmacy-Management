@@ -9,37 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MeroPharma
 build_property.RootNamespace = MeroPharma
-build_property.ProjectDir = D:\Projects\MeroPharma\MeroPharma\
+build_property.ProjectDir = C:\Users\Dell\Desktop\Pharmacy-Management\MeroPharma\MeroPharma\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects\MeroPharma\MeroPharma
+build_property.MSBuildProjectDirectory = C:\Users\Dell\Desktop\Pharmacy-Management\MeroPharma\MeroPharma
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/Home/Index.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Employees/AddEmployee.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXEFkZEVtcGxveWVlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Employees/ViewDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXFZpZXdEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Employees/ViewEmployees.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVzXFZpZXdFbXBsb3llZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/Home/Privacy.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/Shared/Error.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/_ViewImports.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/_ViewStart.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects/MeroPharma/MeroPharma/Views/Shared/_Layout.cshtml]
+[C:/Users/Dell/Desktop/Pharmacy-Management/MeroPharma/MeroPharma/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jr5tfn2e0z

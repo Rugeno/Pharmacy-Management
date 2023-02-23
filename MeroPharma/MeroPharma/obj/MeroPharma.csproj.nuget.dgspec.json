@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\MeroPharma\\MeroPharma\\MeroPharma.csproj": {}
+    "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharma\\MeroPharma\\MeroPharma.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\MeroPharma\\MeroPharma\\MeroPharma.csproj": {
+    "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharma\\MeroPharma\\MeroPharma.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\MeroPharma\\MeroPharma\\MeroPharma.csproj",
+        "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharma\\MeroPharma\\MeroPharma.csproj",
         "projectName": "MeroPharma",
-        "projectPath": "D:\\Projects\\MeroPharma\\MeroPharma\\MeroPharma.csproj",
+        "projectPath": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharma\\MeroPharma\\MeroPharma.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\MeroPharma\\MeroPharma\\obj\\",
+        "outputPath": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharma\\MeroPharma\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
