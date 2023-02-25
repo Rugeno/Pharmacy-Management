@@ -1,0 +1,68 @@
+﻿@model MeroPharmaProject.Models.DTO.RegistrationModel
+@{
+}
+
+<h1>Add employee</h1>
+<form method="post" asp-action="Registration" class="mt-5">
+    <div class="mb-3">
+        <label for="" class="form-label">Full Name</label>
+        <input type="text" class="form-control" asp-for="Name">
+        <span class="text-danger" asp-validation-for="Name"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">UserName</label>
+        <input type="text" class="form-control" asp-for="Username">
+        <span class="text-danger" asp-validation-for="Username"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Email</label>
+        <input type="email" class="form-control" asp-for="Email">
+        <span class="text-danger" asp-validation-for="Email"></span>
+
+    </div><div class="mb-3">
+        <label for="" class="form-label">Address</label>
+        <input type="text" class="form-control" asp-for="Address">
+        <span class="text-danger" asp-validation-for="Address"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Contact</label>
+        <input type="number" class="form-control" asp-for="Contact">
+        <span class="text-danger" asp-validation-for="Contact"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Salary</label>
+        <input type="text" class="form-control" asp-for="Salary">
+        <span class="text-danger" asp-validation-for="Salary"></span>
+
+    </div>
+    <div class="mb-3">
+    <label for="" class="form-label">JoinmdDate</label>
+    <input type="date" class="form-control" asp-for="JoinedDate">
+    <span class="text-danger" asp-validation-for="JoinedDate"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Password</label>
+        <input type="password" class="form-control" asp-for="Password">
+        <span class="text-danger" asp-validation-for="Password"></span>
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="form-label">Confirm Password</label>
+        <input type="password" class="form-control" asp-for="PasswordConfirm">
+        <span class="text-danger" asp-validation-for="PasswordConfirm"></span>
+
+    </div>
+    @if (TempData["msg"] != null)
+    {
+        <div class="form-group">
+        <span class="text-info">@TempData["msg"]</span>
+        </div>
+    }
+    <button type="submit" class="btn btn-primary">Submit</button>
+    <a class="btn btn-primary" href="/UserAuthentication/Login">Login</a>
+</form>
