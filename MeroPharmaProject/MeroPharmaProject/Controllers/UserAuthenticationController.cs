@@ -66,19 +66,19 @@ namespace MeroPharmaProject.Controllers
             return RedirectToAction(nameof(Login));
         }
 
-        public async Task<IActionResult> RegisterAdmin()
-        {
-            RegistrationModel model = new RegistrationModel
-            {
-                Name = "admin1",
-                Username = "admin1",
-                Email = "admin@gmail.com",
-                Password = "Admin12345#"
-            };
-            model.Role = "admin";
-            var result = await this._authService.RegisterAsync(model);
-            return Ok(result);
-        }
+        //public async Task<IActionResult> RegisterAdmin()
+        //{
+        //    RegistrationModel model = new RegistrationModel
+        //    {
+        //        Name = "admin1",
+        //        Username = "admin1",
+        //        Email = "admin@gmail.com",
+        //        Password = "Admin12345#"
+        //    };
+        //    model.Role = "admin";
+        //    var result = await this._authService.RegisterAsync(model);
+        //    return Ok(result);
+        //}
 
         //[Authorize]
         //public IActionResult ChangePassword()

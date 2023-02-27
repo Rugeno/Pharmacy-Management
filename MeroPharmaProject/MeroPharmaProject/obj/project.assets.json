@@ -10689,11 +10689,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
+      "projectUniqueName": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
       "projectName": "MeroPharmaProject",
-      "projectPath": "D:\\Projects\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
+      "projectPath": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\MeroPharmaProject\\MeroPharmaProject\\obj\\",
+      "outputPath": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharmaProject\\MeroPharmaProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft Visual Studio\\Shared\\NuGetPackages"

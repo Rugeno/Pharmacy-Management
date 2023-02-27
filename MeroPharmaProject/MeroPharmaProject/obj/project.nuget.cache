@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Rhxf6b42mj+fMnsQoOC6abWkPfoYMP18gvIryTyAyHLYXr9GJN4NlNGSBKxOQzibOsevnrFCm2lHkHpydAwJfQ==",
+  "dgSpecHash": "3TfYfF6Jq4vlvukeLV0EKrX6+UgWOCi1suxCHfHqd4PVYGN/H84KTlCkmnynbAC9NFvG4PAblnfjDSnylz0WLQ==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
+  "projectFilePath": "C:\\Users\\Dell\\Desktop\\Pharmacy-Management\\MeroPharmaProject\\MeroPharmaProject\\MeroPharmaProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
