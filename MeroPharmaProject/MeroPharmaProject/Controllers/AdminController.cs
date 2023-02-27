@@ -46,7 +46,7 @@ namespace MeroPharmaProject.Controllers
                 Id = user.Id,
                 Email = user.Email,
                 UserName= user.UserName,
-                Contact = user.PhoneNumber,
+                PhoneNumber = user.PhoneNumber,
                 Claims = userClaims.Select(c => c.Value).ToList(),
                 Roles = userRoles
             };
@@ -67,7 +67,7 @@ namespace MeroPharmaProject.Controllers
             {
                 user.Email = model.Email;
                 user.UserName = model.UserName;
-                user.PhoneNumber = model.Contact;
+                user.PhoneNumber = model.PhoneNumber;
 
                 var result = await userManager.UpdateAsync(user);
 

@@ -16,7 +16,7 @@ namespace MeroPharmaProject.Models.DTO
         public DateTime JoinedDate { get; set; }
 
         [Required(ErrorMessage ="Please enter you contact")]
-        public string Contact { get; set; }
+        public string PhoneNumber { get; set; }
 
         [Required]
         [EmailAddress]

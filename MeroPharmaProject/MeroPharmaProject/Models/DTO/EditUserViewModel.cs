@@ -21,7 +21,7 @@ namespace MeroPharmaProject.Models.DTO
         [EmailAddress]
         public string Email { get; set; }
 
-        public string Contact { get; set; }
+        public string PhoneNumber { get; set; }
 
 
         public List<string> Claims { get; set; }
