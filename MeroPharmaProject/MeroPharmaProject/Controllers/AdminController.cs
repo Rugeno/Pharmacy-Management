@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Data;
-
+using System.Text;
 
 namespace MeroPharmaProject.Controllers
 {
@@ -46,6 +46,7 @@ namespace MeroPharmaProject.Controllers
                 Id = user.Id,
                 Email = user.Email,
                 UserName= user.UserName,
+                Password = Encoding.UTF8.GetString(Convert.FromBase64String(user.PasswordHash)),
                 PhoneNumber = user.PhoneNumber,
                 Claims = userClaims.Select(c => c.Value).ToList(),
                 Roles = userRoles
@@ -68,6 +69,8 @@ namespace MeroPharmaProject.Controllers
                 user.Email = model.Email;
                 user.UserName = model.UserName;
                 user.PhoneNumber = model.PhoneNumber;
+                model.Password = user.PasswordHash;/*Encoding.UTF8.GetString(Convert.FromBase64String(user.PasswordHash));*/
+                    
 
                 var result = await userManager.UpdateAsync(user);
 
